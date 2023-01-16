@@ -1,0 +1,19 @@
+.rodape{
+    background-color: #04244f;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    grid-area: rodape;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.rodape-texto{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'GandhiSansRegular';
+}
+
+.icone{
+    padding-right: 1.5rem;
+}

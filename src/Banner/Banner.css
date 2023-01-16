@@ -1,0 +1,22 @@
+.banner{
+    position: relative;
+    grid-area: bannerprincipal;
+}
+
+.banner-imagem{
+    background-size: contain;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.banner-chamada{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-family: 'GandhiSansRegular';
+    position: absolute;
+    left: 4rem;
+    top: 50%;
+    margin: 0;
+    max-width: 25%;
+    transform: translateY(-50%);
+}

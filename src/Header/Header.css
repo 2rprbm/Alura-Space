@@ -1,0 +1,29 @@
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.cabecalho-input{
+    border-radius: 5px;
+    height: 2rem;
+    width: 35%;
+    outline: none;
+    padding: 18px 16px;
+    background: transparent;
+    border-color: blueviolet;
+    color: #FFFFFF;
+    font-family: "GandhiSansRegular";
+
+}
+
+.cabecalho-input::placeholder{
+    font-family: "GandhiSansBold";
+    background-image: url("../Imagens/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+    color: #D9D9D9;
+}

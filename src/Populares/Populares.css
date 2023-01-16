@@ -1,0 +1,35 @@
+.secao-populares{
+    grid-area: areapopulares;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: center;
+    margin-top: 5rem;
+    box-sizing: border-box;
+}
+
+.secao-populares--titulos{
+    font-family: 'GandhySansRegular';
+    font-size: 1.5rem;
+    color: #7B78E5;
+}
+
+.imagem-populares{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.botao-secao--populares{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'GandhiSansBold';
+    padding: 0.75rem;
+    background: transparent;
+    border-color: #7B78E5;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}

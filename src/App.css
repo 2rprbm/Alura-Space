@@ -1,0 +1,16 @@
+.secao-principal {
+  display: grid;
+  grid-template-areas: 
+  "menulateral bannerprincipal bannerprincipal"
+  "menulateral areaprincipal areapopulares"
+  "rodape rodape rodape";
+  grid-template-columns: 1fr 3fr 1fr;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.secao-principal--menu{
+  grid-area: menulateral;
+}
